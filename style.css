@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #4036a9;
+  color: #ffffff;
+  padding: 1rem 1rem 3rem;
+}
+
+.logo {
+  padding-top: 1rem;
+}
+
+.image {
+  width: 5rem;
+}
+
+.introduction {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.text {
+  max-width: 25rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.description {
+  font-size: 1rem;
+  padding: 0 1.8rem;
+}
+
+.content {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.input-content {
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.input-content.button-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option {
+  font-weight: bold;
+}
+
+.area {
+  width: 100%;
+  height: 9rem;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 10px;
+  color: #4036a9;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+  .content-item.areas {
+    grid-column: span 2;
+  }
+
+  .button {
+    grid-column: span 2;
+  }
+}
