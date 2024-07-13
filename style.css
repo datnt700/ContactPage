@@ -68,6 +68,7 @@ body {
 .input-content.button-select {
   display: flex;
   justify-content: space-between;
+  border: none;
 }
 
 .option {
@@ -88,6 +89,7 @@ body {
   color: #4036a9;
   font-weight: bold;
   font-size: 1rem;
+  border: none;
 }
 
 @media screen and (min-width: 1024px) {
