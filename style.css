@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .container {
-  background-color: #4036a9;
+  background-image: url('./assets/bg-image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
-  padding: 1rem 1rem 3rem;
+  padding: 1rem 2rem 3rem;
 }
 
 .logo {
@@ -25,16 +29,15 @@ body {
 }
 
 .text {
-  max-width: 25rem;
+  max-width: 40rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .description {
-  font-size: 1rem;
-  padding: 0 1.8rem;
+  font-size: 2rem;
 }
 
 .content {
@@ -66,9 +69,11 @@ body {
 }
 
 .input-content.button-select {
-  display: flex;
-  justify-content: space-between;
-  border: none;
+  appearance: none;
+  position: relative;
+  background-image: url('./assets/Expand_down.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
 .option {
